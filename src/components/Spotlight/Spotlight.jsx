@@ -21,7 +21,7 @@ function Spotlight() {
     <section className={styles.main}>
       <div className={styles.main_overlay}>
         <div className={styles.wrapper_bg}>
-          <img
+          <Image
             className="image"
             width={20}
             height={20}
@@ -138,7 +138,7 @@ function Spotlight() {
             </div>
           </div>
           <p className={styles.descrption}>
-            The World’s first Paul Weller Fan Podcast - For the fans by the
+            The Worlds first Paul Weller Fan Podcast - For the fans by the
             fans.A radio broadcaster who gave up a career with one big regret.
             Never getting to interview his hero , the legendary A radio
             broadcaster who gave up a career with one big regret. Never getting
