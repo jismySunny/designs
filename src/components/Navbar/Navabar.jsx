@@ -10,15 +10,17 @@ export const Navabar = ({ navRef, sticky }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 590) {
+      if (typeof window !== "undefined" && window.innerWidth > 590) {
         setIsOpen(true);
       } else {
         setIsOpen(false);
       }
     };
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      handleResize();
+      window.addEventListener("resize", handleResize);
+    }
 
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -26,16 +28,20 @@ export const Navabar = ({ navRef, sticky }) => {
       }
     };
 
-    window.addEventListener("click", handleClickOutside);
+    if (typeof window !== "undefined") {
+      window.addEventListener("click", handleClickOutside);
+    }
 
     return () => {
-      window.removeEventListener("resize", handleResize);
-      window.removeEventListener("click", handleClickOutside);
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+        window.removeEventListener("click", handleClickOutside);
+      }
     };
   }, []);
 
   const toggleMenu = () => {
-    if (window.innerWidth <= 590) {
+    if (typeof window !== "undefined" && window.innerWidth <= 590) {
       setIsOpen(!isOpen);
     }
   };
@@ -52,9 +58,6 @@ export const Navabar = ({ navRef, sticky }) => {
     >
       <div className={styles.wrapper}>
         <div className={styles.left}>
-          {/* <div className={styles.menu} onClick={toggleMenu} ref={menuRef}>
-            <Image width={40} height={40} alt="Menu" src={"/icons/menu.svg"} />
-          </div> */}
           <Link href={"/"} className={styles.logo}>
             <Image
               src="/images/gavaria-logo-white.png"
@@ -67,7 +70,7 @@ export const Navabar = ({ navRef, sticky }) => {
               }}
             />
           </Link>
-          {(isOpen || window.innerWidth > 590) && (
+          {(isOpen || (typeof window !== "undefined" && window.innerWidth > 590)) && (
             <div
               className={styles.links}
               style={{

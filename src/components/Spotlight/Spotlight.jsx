@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import SpotlightNavbar from "../SpotlightHeader/SpotlightHeader";
 import styles from "./spotlight.module.css";
 import Image from "next/image";
@@ -6,6 +6,17 @@ import { Navabar } from "@/components/Navbar/Navabar";
 import Link from "next/link";
 
 function Spotlight() {
+  // Example state to demonstrate useEffect
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Client-side only code
+      setWindowWidth(window.innerWidth);
+      console.log(window.innerWidth);
+    }
+  }, []);
+
   return (
     <section className={styles.main}>
       <div className={styles.main_overlay}>
