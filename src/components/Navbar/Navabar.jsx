@@ -74,20 +74,50 @@ export const Navabar = ({ navRef, sticky }) => {
                 transform: sticky ? "translateX(20px)" : "translateX(-130px)",
               }}
             >
-              <Link href="/" className={`${styles.link} ${activeSection === "Podcast" ? styles.active : ""}`} onClick={() => handleSectionChange("Podcast")}>
-                Podcast
+              <Link
+                href="/"
+                className={`${styles.link} ${
+                  activeSection === "Podcast" ? styles.active : ""
+                }`}
+                onClick={() => handleSectionChange("Episodes")}
+              >
+                Episodes
               </Link>
-              <Link href="/music" className={`${styles.link} ${activeSection === "Music" ? styles.active : ""}`} onClick={() => handleSectionChange("Music")}>
-                Music
+              <Link
+                href="/"
+                className={`${styles.link} ${
+                  activeSection === "Music" ? styles.active : ""
+                }`}
+                onClick={() => handleSectionChange("Clips")}
+              >
+                Clips
               </Link>
-              <Link href="/radio" className={`${styles.link} ${activeSection === "Radio" ? styles.active : ""}`} onClick={() => handleSectionChange("Radio")}>
-                Radio
+              <Link
+                href="/"
+                className={`${styles.link} ${
+                  activeSection === "About" ? styles.active : ""
+                }`}
+                onClick={() => handleSectionChange("About")}
+              >
+                About
               </Link>
-              <Link href="/audiobooks" className={`${styles.link} ${activeSection === "Audiobooks" ? styles.active : ""}`} onClick={() => handleSectionChange("Audiobooks")}>
-                Audiobooks
+              <Link
+                href="/"
+                className={`${styles.link} ${
+                  activeSection === "Reviews" ? styles.active : ""
+                }`}
+                onClick={() => handleSectionChange("Reviews")}
+              >
+                Reviews
               </Link>
-              <Link href="/news" className={`${styles.link} ${activeSection === "News" ? styles.active : ""}`} onClick={() => handleSectionChange("News")}>
-                News
+              <Link
+                href="/"
+                className={`${styles.link} ${
+                  activeSection === "News" ? styles.active : ""
+                }`}
+                onClick={() => handleSectionChange("News")}
+              >
+                Comments
               </Link>
             </div>
           )}
@@ -107,10 +137,61 @@ export const Navabar = ({ navRef, sticky }) => {
                 src={"/icons/search.svg"}
               />
             </div>
-           
           </div>
           <div className={styles.menu} onClick={toggleMenu} ref={menuRef}>
             <Image width={40} height={40} alt="Menu" src={"/icons/menu.svg"} />
+          </div>
+        </div>
+      </div>
+      <div className={styles.wrapper}>
+        <div className={styles.bottom}>
+          <div className={styles.left}>
+            <div className={styles.all}>
+              <p>all</p>
+              <Image
+                className="image"
+                width={40}
+                height={40}
+                src="/icons/down-arrow-white.svg"
+                alt="Image"
+              />
+            </div>
+            <Link href={"/"} className={styles.Image}>
+              Unplayed{" "}
+            </Link>
+            <Link href={"/"} className={styles.Image}>
+              Downloaded
+            </Link>
+            <Link href={"/"} className={styles.Image}>
+              Played
+            </Link>
+          </div>
+          <div className={styles.right}>
+            <div className={styles.up_down}>
+              <Image
+                className="image"
+                width={40}
+                height={40}
+                src="/icons/down-arrow-white.svg"
+                alt="Image"
+              />
+              <Image
+                className="image"
+                width={40}
+                height={40}
+                src="/icons/down-arrow-white.svg"
+                alt="Image"
+              />
+            </div>
+            <div className={styles.menu}>
+              <Image
+                className="image"
+                width={40}
+                height={40}
+                src="/icons/down-arrow-white.svg"
+                alt="Image"
+              />
+            </div>
           </div>
         </div>
       </div>
