@@ -72,12 +72,16 @@ function PlayerComponents() {
             width={40}
             height={40}
           />
-          <Image
-            src="/icons/playericons/play.svg"
-            alt="image"
-            width={53}
-            height={53}
-          />
+         <div className={styles.player_box}>
+         <div className={styles.player_img}>
+         <Image
+              src="/icons/playericons/play.svg"
+              alt="image"
+              width={23}
+              height={23}
+            />
+         </div>
+         </div>
           <Image
             src="/icons/playericons/seconds-skips-right.svg"
             alt="image"
@@ -93,12 +97,15 @@ function PlayerComponents() {
         </div>
         <div className={styles.music_times}>
             <p className={styles.time}>1:12</p>
-            <Image
+            {/* <Image
             src="/icons/playericons/music-playtime.svg"
             alt="image"
             width={527}
             height={5}
-          />
+          /> */}
+          <div className={styles.progress_box}>
+            <div className={styles.progress_bar}></div>
+          </div>
             <p className={styles.time}>3:12</p>
         </div>
       </div>
@@ -119,12 +126,7 @@ function PlayerComponents() {
 
         </div>
         <div className={styles.bottom_section}>
-        <Image
-            src="/icons/playericons/speed.svg"
-            alt="image"
-            width={35}
-            height={35}
-          />
+          <p className={styles.speed}>1x</p>
           <Image
             src="/icons/playericons/speaker.svg"
             alt="image"

@@ -280,7 +280,7 @@
 .episode_box {
   background: #191d24cc;
   width: 100%;
-  height: 210px;
+  height: auto;
   border-radius: 10px;
   opacity: 0px;
   padding: 15px;
@@ -296,6 +296,9 @@
   gap: 20px;
   margin-top: 20px;
 }
+.music .musicimg{
+  height: 0px;
+}
 .music .musicimg img {
   border-radius: 10px;
   height: 130px;
@@ -305,7 +308,7 @@
 .music .items {
   display: flex;
   position: relative;
-  top: -80px;
+  top: 50px;
   justify-content: space-evenly;
 }
 .content_details h6 {

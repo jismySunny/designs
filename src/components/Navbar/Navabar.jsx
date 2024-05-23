@@ -70,7 +70,8 @@ export const Navabar = ({ navRef, sticky }) => {
               }}
             />
           </Link>
-          {(isOpen || (typeof window !== "undefined" && window.innerWidth > 590)) && (
+          {(isOpen ||
+            (typeof window !== "undefined" && window.innerWidth > 590)) && (
             <div
               className={styles.links}
               style={{
@@ -146,11 +147,11 @@ export const Navabar = ({ navRef, sticky }) => {
           </div>
         </div>
       </div>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper_two}>
         <div className={styles.bottom}>
           <div className={styles.left}>
             <div className={styles.all}>
-              <p>all</p>
+              <p>All</p>
               <Image
                 className="image"
                 width={40}
@@ -170,28 +171,30 @@ export const Navabar = ({ navRef, sticky }) => {
             </Link>
           </div>
           <div className={styles.right}>
-            <div className={styles.up_down}>
-              <Image
-                className="image"
-                width={40}
-                height={40}
-                src="/icons/down-arrow-white.svg"
-                alt="Image"
-              />
-              <Image
-                className="image"
-                width={40}
-                height={40}
-                src="/icons/down-arrow-white.svg"
-                alt="Image"
-              />
+            <div className={styles.arrows}>
+              <div className={styles.up_down}>
+                <Image
+                  className="image"
+                  width={60}
+                  height={60}
+                  src="/icons/arrow1.svg"
+                  alt="Image"
+                />
+                <Image
+                  className="image images"
+                  width={60}
+                  height={60}
+                  src="/icons/arrow2.svg"
+                  alt="Image"
+                />
+              </div>
             </div>
-            <div className={styles.menu}>
+            <div className={styles.settings}>
               <Image
                 className="image"
-                width={40}
-                height={40}
-                src="/icons/down-arrow-white.svg"
+                width={80}
+                height={80}
+                src="/icons/menu.svg"
                 alt="Image"
               />
             </div>

@@ -1,0 +1,33 @@
+.sectionheader {
+  padding: 40px 0;
+}
+.wrapper {
+  margin: 0 70px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_left h3 {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+.section_left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #a5a5a5;
+}
+.section_right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.arrows {
+  display: flex;
+  align-items: center;
+}
