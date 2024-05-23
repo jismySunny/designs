@@ -22,7 +22,7 @@ function PodcastDetails() {
                 <div className={styles.item}>
                   <Image
                     src="/icons/play-round.svg"
-                    alt="image"
+                    alt="Play"
                     width={48}
                     height={49}
                   />
@@ -33,7 +33,7 @@ function PodcastDetails() {
                   <h6>Today</h6>
                   <Image
                     src="/icons/card-menu.svg"
-                    alt="image"
+                    alt="Menu"
                     width={38}
                     height={39}
                   />
@@ -41,29 +41,24 @@ function PodcastDetails() {
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
                 <p className={styles.descrption}>
                   Possibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
+                  American Psychological Association&apos;s Diagnosis and Statistical
                   Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently
-                  flawedPossibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
-                  Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently flawed
+                  realistic approach. Possibility Podcast host Mel Schwartz describes how the
+                  American Psychological Association&apos;s Diagnosis and Statistical
+                  Manual is inherently flawed.
                 </p>
-
                 <div className={styles.bottom}>
                   <h6>16m</h6>
                   <div className={styles.bottom_left}>
                     <Image
                       src="/icons/add-playlist.svg"
-                      alt="image"
+                      alt="Add to playlist"
                       width={30}
                       height={30}
                     />
                     <Image
                       src="/icons/plus.svg"
-                      alt="image"
+                      alt="Plus"
                       width={30}
                       height={30}
                     />
@@ -86,7 +81,7 @@ function PodcastDetails() {
                 <div className={styles.item}>
                   <Image
                     src="/icons/play-round.svg"
-                    alt="image"
+                    alt="Play"
                     width={48}
                     height={49}
                   />
@@ -105,14 +100,14 @@ function PodcastDetails() {
                     <span className={styles.line}></span>
                     <Image
                       src="/icons/E.svg"
-                      alt="image"
+                      alt="E"
                       width={15}
                       height={15}
                     />
                   </div>
                   <Image
                     src="/icons/card-menu.svg"
-                    alt="image"
+                    alt="Menu"
                     width={38}
                     height={39}
                   />
@@ -120,17 +115,12 @@ function PodcastDetails() {
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
                 <p className={styles.descrption}>
                   Possibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
+                  American Psychological Association&apos;s Diagnosis and Statistical
                   Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently
-                  flawedPossibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
-                  Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently flawed
+                  realistic approach. Possibility Podcast host Mel Schwartz describes how the
+                  American Psychological Association&apos;s Diagnosis and Statistical
+                  Manual is inherently flawed.
                 </p>
-
                 <div className={styles.bottom}>
                   <div className={styles.bottom_left}>
                     <h6>1hr 16m left</h6>
@@ -141,13 +131,13 @@ function PodcastDetails() {
                   <div className={styles.bottom_right}>
                     <Image
                       src="/icons/add-playlist.svg"
-                      alt="image"
+                      alt="Add to playlist"
                       width={30}
                       height={30}
                     />
                     <Image
                       src="/icons/plus.svg"
-                      alt="image"
+                      alt="Plus"
                       width={30}
                       height={30}
                     />
@@ -170,7 +160,7 @@ function PodcastDetails() {
                 <div className={styles.item}>
                   <Image
                     src="/icons/play-round.svg"
-                    alt="image"
+                    alt="Play"
                     width={48}
                     height={49}
                   />
@@ -181,7 +171,7 @@ function PodcastDetails() {
                   <h6>May 14</h6>
                   <Image
                     src="/icons/card-menu.svg"
-                    alt="image"
+                    alt="Menu"
                     width={38}
                     height={39}
                   />
@@ -189,38 +179,32 @@ function PodcastDetails() {
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
                 <p className={styles.descrption}>
                   Possibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
+                  American Psychological Association&apos;s Diagnosis and Statistical
                   Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently
-                  flawedPossibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
-                  Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently flawed
+                  realistic approach. Possibility Podcast host Mel Schwartz describes how the
+                  American Psychological Association&apos;s Diagnosis and Statistical
+                  Manual is inherently flawed.
                 </p>
-
                 <div className={styles.bottom}>
                   <div className={styles.bottom_left}>
                     <Image
                       src="/icons/delete.svg"
-                      alt="image"
+                      alt="Delete"
                       width={20}
                       height={20}
                     />
                     <h6>16m</h6>
                   </div>
-
                   <div className={styles.bottom_right}>
                     <Image
                       src="/icons/add-playlist.svg"
-                      alt="image"
+                      alt="Add to playlist"
                       width={30}
                       height={30}
                     />
                     <Image
                       src="/icons/plus.svg"
-                      alt="image"
+                      alt="Plus"
                       width={30}
                       height={30}
                     />
@@ -243,7 +227,7 @@ function PodcastDetails() {
                 <div className={styles.item}>
                   <Image
                     src="/icons/play-round.svg"
-                    alt="image"
+                    alt="Play"
                     width={48}
                     height={49}
                   />
@@ -254,7 +238,7 @@ function PodcastDetails() {
                   <h6>May 14</h6>
                   <Image
                     src="/icons/card-menu.svg"
-                    alt="image"
+                    alt="Menu"
                     width={38}
                     height={39}
                   />
@@ -262,29 +246,24 @@ function PodcastDetails() {
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
                 <p className={styles.descrption}>
                   Possibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
+                  American Psychological Association&apos;s Diagnosis and Statistical
                   Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently
-                  flawedPossibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
-                  Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently flawed
+                  realistic approach. Possibility Podcast host Mel Schwartz describes how the
+                  American Psychological Association&apos;s Diagnosis and Statistical
+                  Manual is inherently flawed.
                 </p>
-
                 <div className={styles.bottom}>
                   <h6>16m</h6>
                   <div className={styles.bottom_left}>
                     <Image
                       src="/icons/add-playlist.svg"
-                      alt="image"
+                      alt="Add to playlist"
                       width={30}
                       height={30}
                     />
                     <Image
                       src="/icons/plus.svg"
-                      alt="image"
+                      alt="Plus"
                       width={30}
                       height={30}
                     />
@@ -296,7 +275,7 @@ function PodcastDetails() {
           <div className={styles.items}>
             <div className={styles.contents}>
               <div className={styles.music}>
-                <div className={styles.musicimgg}>
+                <div className={styles.musicimg}>
                   <Image
                     src="/images/podcastimg.png"
                     alt="Description"
@@ -310,7 +289,7 @@ function PodcastDetails() {
                   <h6>May 14</h6>
                   <Image
                     src="/icons/card-menu.svg"
-                    alt="image"
+                    alt="Menu"
                     width={38}
                     height={39}
                   />
@@ -318,37 +297,24 @@ function PodcastDetails() {
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
                 <p className={styles.descrption}>
                   Possibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
+                  American Psychological Association&apos;s Diagnosis and Statistical
                   Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently
-                  flawedPossibility Podcast host Mel Schwartz describes how the
-                  American Psychological Association's Diagnosis and Statistical
-                  Manual is inherently flawed, and proposes a different, more
-                  realistichow the American Psychological Association's
-                  Diagnosis and Statistical Manual is inherently flawed
+                  realistic approach. Possibility Podcast host Mel Schwartz describes how the
+                  American Psychological Association&apos;s Diagnosis and Statistical
+                  Manual is inherently flawed.
                 </p>
-
                 <div className={styles.bottom}>
+                  <h6>16m</h6>
                   <div className={styles.bottom_left}>
                     <Image
-                      src="/icons/trash.svg"
-                      alt="image"
-                      width={20}
-                      height={20}
-                    />
-                    <h6>16m</h6>
-                  </div>
-                  <div className={styles.bottom_right}>
-                    <Image
                       src="/icons/add-playlist.svg"
-                      alt="image"
+                      alt="Add to playlist"
                       width={30}
                       height={30}
                     />
                     <Image
                       src="/icons/plus.svg"
-                      alt="image"
+                      alt="Plus"
                       width={30}
                       height={30}
                     />
