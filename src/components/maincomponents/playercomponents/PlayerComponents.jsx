@@ -8,12 +8,12 @@ function PlayerComponents() {
       <div className={styles.music_box}>
         <div className={styles.music}>
           <div className={styles.musicimg}>
-          <Image
-            src="/images/music.png"
-            alt="Description of image"
-            width={88}
-            height={89}
-          />
+            <Image
+              src="/images/music.png"
+              alt="Description of image"
+              width={88}
+              height={89}
+            />
           </div>
           <div className={styles.items}>
             <div className={styles.playing}>
@@ -27,7 +27,7 @@ function PlayerComponents() {
             />
           </div>
         </div>
-        
+
         <div className={styles.about_music}>
           <div className={styles.contents}>
             <p className={styles.title}>Glennon Doyle & Cadence13</p>
@@ -60,7 +60,7 @@ function PlayerComponents() {
       </div>
       <div className={styles.player_section}>
         <div className={styles.playing_items}>
-        <Image
+          <Image
             src="/icons/playericons/prev.svg"
             alt="image"
             width={25}
@@ -72,16 +72,16 @@ function PlayerComponents() {
             width={40}
             height={40}
           />
-         <div className={styles.player_box}>
-         <div className={styles.player_img}>
-         <Image
-              src="/icons/playericons/play.svg"
-              alt="image"
-              width={23}
-              height={23}
-            />
-         </div>
-         </div>
+          <div className={styles.player_box}>
+            <div className={styles.player_img}>
+              <Image
+                src="/icons/playericons/play.svg"
+                alt="image"
+                width={23}
+                height={23}
+              />
+            </div>
+          </div>
           <Image
             src="/icons/playericons/seconds-skips-right.svg"
             alt="image"
@@ -96,8 +96,8 @@ function PlayerComponents() {
           />
         </div>
         <div className={styles.music_times}>
-            <p className={styles.time}>1:12</p>
-            {/* <Image
+          <p className={styles.time}>1:12</p>
+          {/* <Image
             src="/icons/playericons/music-playtime.svg"
             alt="image"
             width={527}
@@ -106,12 +106,12 @@ function PlayerComponents() {
           <div className={styles.progress_box}>
             <div className={styles.progress_bar}></div>
           </div>
-            <p className={styles.time}>3:12</p>
+          <p className={styles.time}>3:12</p>
         </div>
       </div>
       <div className={styles.end_section}>
         <div className={styles.top_section}>
-        <Image
+          <Image
             src="/icons/playericons/menu.svg"
             alt="image"
             width={35}
@@ -123,7 +123,6 @@ function PlayerComponents() {
             width={30}
             height={30}
           />
-
         </div>
         <div className={styles.bottom_section}>
           <p className={styles.speed}>1x</p>
@@ -157,9 +156,7 @@ function PlayerComponents() {
             width={30}
             height={30}
           />
-
         </div>
-
       </div>
     </div>
   );

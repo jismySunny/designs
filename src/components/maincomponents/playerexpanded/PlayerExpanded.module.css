@@ -1,0 +1,116 @@
+.main {
+  width: 100%;
+  background: linear-gradient(
+    156.2deg,
+    #182744 16.79%,
+    rgba(96, 112, 139, 0.86) 364.7%
+  );
+  height: 100%;
+  padding: 10px 10px;
+  display: flex;
+  gap: 18px;
+  position: fixed;
+  bottom: 0;
+  flex-direction: column;
+}
+
+.top_section {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.music {
+  margin: 0 auto;
+}
+.music .musicimg img {
+  border-radius: 10px;
+  width: 505px;
+  height: 505px;
+  opacity: 0.4;
+  margin-top: 68px;
+}
+.items {
+  display: flex;
+  position: relative;
+  top: -81%;
+  left: 214px;
+  justify-content: space-evenly;
+}
+
+.music_details {
+  margin-left: 90px;
+}
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: left;
+}
+.music_times {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: -15px;
+}
+.time {
+  font-size: 15px;
+}
+.progress_box {
+  width: 82%;
+  height: 10px;
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+.progress_bar {
+  width: 171px;
+  background: #95543d;
+  height: 10px;
+  border-radius: 20px 0px 0px 20px;
+}
+.player_section {
+  display: flex;
+  align-items: center;
+  gap: 268px;
+  margin-left: 37%;
+}
+.playing_items {
+  display: flex;
+  gap: 45px;
+  margin-top: 17px;
+  align-items: center;
+}
+.player_box {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+.player_img {
+  position: relative;
+  top: 11px;
+  left: 18px;
+}
+.bottom_section {
+  display: flex;
+  gap: 45px;
+  justify-content: end;
+}
+.speed {
+  background: #95543d66;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.bottomleft_section {
+}
