@@ -1,0 +1,38 @@
+.listingsection {
+  padding: 60px 0px 25px 0px;
+}
+.wrapper {
+  margin: 0 50px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.left h4{
+    font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.menu_items{
+    background: #252931;
+    width: 218px;
+    height: auto;
+    border-radius: 10px; 
+    position: relative;
+    top: 20px;
+    right: 0;
+    display: flex;
+    justify-content: end;
+}
+.items{
+    display: flex;
+  align-items: center;
+  gap: 20px;
+}
