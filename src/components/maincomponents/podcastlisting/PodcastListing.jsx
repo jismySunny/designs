@@ -13,8 +13,8 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/episode.png"}
-                      width={100}
-                      height={133}
+                      width={200}
+                      height={200}
                       alt="Image"
                       className="image"
                       style={{
@@ -60,7 +60,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -92,7 +92,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -124,7 +124,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -156,7 +156,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -188,7 +188,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -220,7 +220,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -252,7 +252,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -284,7 +284,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -316,7 +316,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -348,7 +348,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -380,7 +380,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -412,7 +412,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -444,7 +444,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -476,7 +476,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -508,7 +508,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -540,7 +540,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -572,7 +572,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -604,7 +604,7 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -636,8 +636,8 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
-                      height={133}
+                      width={200}
+                      height={200}
                       alt="Image"
                       className="image"
                       style={{

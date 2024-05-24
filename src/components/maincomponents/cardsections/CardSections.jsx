@@ -16,7 +16,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/episode.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -63,7 +63,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -95,7 +95,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -127,7 +127,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -159,7 +159,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -191,7 +191,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-one.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
@@ -223,7 +223,7 @@ function CardSections() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
-                      width={100}
+                      width={200}
                       height={133}
                       alt="Image"
                       className="image"
