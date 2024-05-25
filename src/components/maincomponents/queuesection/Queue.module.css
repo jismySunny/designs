@@ -1,0 +1,39 @@
+.queue {
+  position: fixed;
+  top: 0;
+  background: #191d24;
+  display: flex;
+  width: 38%;
+  height: auto;
+  right: 0;
+  padding: 25px;
+}
+.main {
+
+}
+.closeimg{
+    margin-left: 40rem;
+}
+.item_box {
+    display: flex;
+    align-items: center;
+    background: #252931b2;
+    width: 596px;
+    border-radius: 7px;
+    height: auto;
+    justify-content: space-between;
+    padding: 7px 10px;
+    margin-top: 15px;
+  }
+  .image_play {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .play_icon {
+    position: relative;
+    top: -54px;
+    left: 27px;
+    height: 0;
+  }
+  
