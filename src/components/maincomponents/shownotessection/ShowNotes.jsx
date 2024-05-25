@@ -59,7 +59,7 @@ function ShowNotes() {
           <div className={styles.tab_items}>
             <div className={styles.top_title}>
               <p>
-                Funny Cuz It's True with Elyse Funny Cuz It's True with Elyse
+                Funny Cuz Its True with Elyse Funny Cuz Its True with Elyse
                 Myers
               </p>
             </div>

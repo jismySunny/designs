@@ -343,7 +343,7 @@ function Chapters() {
         </div>
       </div>
       <div className={styles.bottom}>
-        <p>Funny Cuz It's True with Elys Funny Cuz It's True with Elyse Myers. Funny Cuz It's True with Elys Funny Cuz It's</p>
+        <p>Funny Cuz Its True with Elys Funny Cuz Its True with Elyse Myers. Funny Cuz Its True with Elys Funny Cuz Its</p>
 
       </div>
     </div>
