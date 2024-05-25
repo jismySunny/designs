@@ -55,90 +55,219 @@ function Chapters() {
           <p className={styles.tab}>Transcripts</p>
           <p className={styles.tab}>Show notes</p>
         </div>
-        <div className={styles.tab_items}>
-          <p>1.</p>
-          <div className={styles.item_box}>
-            <div className={styles.image_play}>
-              <div className={styles.chapter_image}>
-                <Image
-                  src="/images/episode.png"
+        <div className={styles.Chapter_tabs}>
+          <div className={styles.tab_items}>
+            <p>1.</p>
+            <div className={styles.item_box}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                   <div className={styles.play_icon}>
+                 <Image
+                  src="/icons/play-round.svg"
                   alt="image"
-                  width={85}
-                  height={80}
+                  width={30}
+                  height={30}
+                />
+                 </div>
+                </div>
+
+                <div className={styles.player_details}>
+                  <h5>Chameleon: Wild Boys</h5>
+                  <p>0:20</p>
+                </div>
+              </div>
+
+              <div className={styles.icon}>
+                <Image
+                  src="/icons/playericons/Vector.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
                 />
               </div>
-
-              <div className={styles.player_details}>
-                <h5>Chameleon: Wild Boys</h5>
-                <p>0:20</p>
-              </div>
-            </div>
-
-            <div className={styles.icon}>
-              <Image
-                src="/icons/playericons/Vector.svg"
-                alt="image"
-                width={30}
-                height={30}
-              />
             </div>
           </div>
-        </div>
-        <div className={styles.tab_items}>
-          <p>2.</p>
-          <div className={styles.item_box}>
-            <div className={styles.image_play}>
-              <div className={styles.chapter_image}>
+          <div className={styles.tab_items}>
+            <p>2.</p>
+            <div className={styles.item_boxes}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/podcastimg.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                </div>
+
+                <div className={styles.player_details}>
+                  <h5>Chameleon: Wild Boys</h5>
+                  <p>0:20</p>
+                </div>
+              </div>
+
+              <div className={styles.icon}>
                 <Image
-                  src="/images/episode.png"
+                  src="/icons/playericons/Vector.svg"
                   alt="image"
-                  width={85}
-                  height={80}
+                  width={30}
+                  height={30}
                 />
               </div>
-
-              <div className={styles.player_details}>
-                <h5>Chameleon: Wild Boys</h5>
-                <p>0:20</p>
-              </div>
-            </div>
-
-            <div className={styles.icon}>
-              <Image
-                src="/icons/playericons/Vector.svg"
-                alt="image"
-                width={30}
-                height={30}
-              />
             </div>
           </div>
-        </div>
-        <div className={styles.tab_items}>
-          <p>3.</p>
-          <div className={styles.item_box}>
-            <div className={styles.image_play}>
-              <div className={styles.chapter_image}>
-                <Image
-                  src="/images/episode.png"
+          <div className={styles.tab_items}>
+            <p>3.</p>
+            <div className={styles.item_boxes}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                   <div className={styles.play_icon}>
+                 <Image
+                  src="/icons/play-round.svg"
                   alt="image"
-                  width={85}
-                  height={80}
+                  width={30}
+                  height={30}
+                />
+                 </div>
+                </div>
+
+                <div className={styles.player_details}>
+                  <h5>Chameleon: Wild Boys</h5>
+                  <p>0:20</p>
+                </div>
+              </div>
+
+              <div className={styles.icon}>
+                <Image
+                  src="/icons/playericons/Vector.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
                 />
               </div>
+            </div>
+          </div>
+          <div className={styles.tab_items}>
+            <p>4.</p>
+            <div className={styles.item_boxes}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                  <div className={styles.play_icon}>
+                    <Image
+                      src="/icons/play-round.svg"
+                      alt="image"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </div>
 
-              <div className={styles.player_details}>
-                <h5>Chameleon: Wild Boys</h5>
-                <p>0:20</p>
+                <div className={styles.player_details}>
+                  <h5>Chameleon: Wild Boys</h5>
+                  <p>0:20</p>
+                </div>
+              </div>
+
+              <div className={styles.icon}>
+                <Image
+                  src="/icons/playericons/Vector.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
+                />
               </div>
             </div>
+          </div>
+          <div className={styles.tab_items}>
+            <p>5.</p>
+            <div className={styles.item_boxes}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                   <div className={styles.play_icon}>
+                 <Image
+                  src="/icons/play-round.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
+                />
+                 </div>
+                </div>
 
-            <div className={styles.icon}>
-              <Image
-                src="/icons/playericons/Vector.svg"
-                alt="image"
-                width={30}
-                height={30}
-              />
+                <div className={styles.player_details}>
+                  <h5>Chameleon: Wild Boys</h5>
+                  <p>0:20</p>
+                </div>
+              </div>
+
+              <div className={styles.icon}>
+                <Image
+                  src="/icons/playericons/Vector.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
+                />
+              </div>
+            </div>
+          </div>
+          <div className={styles.tab_items}>
+            <p>6.</p>
+            <div className={styles.item_boxes}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                   <div className={styles.play_icon}>
+                 <Image
+                  src="/icons/play-round.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
+                />
+                 </div>
+                </div>
+
+                <div className={styles.player_details}>
+                  <h5>Chameleon: Wild Boys</h5>
+                  <p>0:20</p>
+                </div>
+              </div>
+
+              <div className={styles.icon}>
+                <Image
+                  src="/icons/playericons/Vector.svg"
+                  alt="image"
+                  width={30}
+                  height={30}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -212,6 +341,10 @@ function Chapters() {
             height={30}
           />
         </div>
+      </div>
+      <div className={styles.bottom}>
+        <p>Funny Cuz It's True with Elys Funny Cuz It's True with Elyse Myers. Funny Cuz It's True with Elys Funny Cuz It's</p>
+
       </div>
     </div>
   );

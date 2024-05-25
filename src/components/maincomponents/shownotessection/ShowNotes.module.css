@@ -13,30 +13,14 @@
   bottom: 0;
   flex-direction: column;
 }
-.Chapter_tabs {
-  max-height: 365px;
-  overflow: auto;
-}
 
-.Chapter_tabs::-webkit-scrollbar {
-  width: 5px;
-}
-
-.Chapter_tabs::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-.Chapter_tabs::-webkit-scrollbar-thumb:horizontal {
-  height: 5px;
-}
-.tab_one {
-  border-bottom: 2px solid #db2b4b;
-}
 .top_section {
   display: flex;
   justify-content: space-between;
   padding: 11px 40px;
+}
+.tab_one {
+  border-bottom: 2px solid #db2b4b;
 }
 .date_time {
   display: flex;
@@ -45,9 +29,7 @@
 }
 .music {
   margin: 0 auto;
-  height: 151px;
 }
-
 .music .musicimg img {
   border-radius: 10px;
   height: 150px;
@@ -103,7 +85,7 @@
   align-items: center;
   justify-content: center;
   gap: 90px;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .tab_one {
   font-size: 20px;
@@ -111,38 +93,61 @@
 }
 .tab_items {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 20px;
   padding: 12px 20px;
-}
+  border-bottom: 0.5px solid #00000033
 
+}
+.tab_item{
+    padding: 12px 20px;
+
+}
+.media {
+  font-size: 19px;
+  font-weight: 500;
+  text-align: left;
+  color: #e8a510;
+}
+.top_title p {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: left;
+}
+.titles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  width: 2px;
+  height: 17px;
+  background-color: #fff;
+}
+.website {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.descc{
+    font-size: 17px;
+    font-weight: 400;
+}
+.episode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .chapter_image img {
   border-radius: 10px;
 }
 .item_box {
   display: flex;
   align-items: center;
-  background: #252931b2;
-  width: 596px;
-  border-radius: 7px;
   height: auto;
-  justify-content: space-between;
-  padding: 7px 10px;
-}
-.item_boxes {
-  display: flex;
-  align-items: center;
-  width: 596px;
-  height: auto;
-  justify-content: space-between;
-  padding: 7px 10px;
-  border-bottom: 0.5px solid #00000033;
-}
-.play_icon {
-  position: relative;
-  top: -54px;
-  left: 27px;
-  height: 0;
+  gap: 30px;
+  justify-content: start;
 }
 .menu_icon {
   position: relative;
@@ -206,17 +211,5 @@
   font-size: 20px;
   font-weight: 600;
 }
-.bottom {
-  width: 802px;
-  height: 58px;
-  border-radius: 10px;
-  background: #191d24cc;
-  margin: 0 auto;
-  padding: 7px;
-}
-.bottom p {
-  text-align: center;
-  width: 80%;
-  margin-left: 35px;
-  margin-bottom: 10px;
+.bottomleft_section {
 }

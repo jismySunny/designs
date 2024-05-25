@@ -19,7 +19,7 @@
 }
 
 .Chapter_tabs::-webkit-scrollbar {
-  width: 5px;
+  width: 5px; 
 }
 
 .Chapter_tabs::-webkit-scrollbar-thumb {
@@ -28,11 +28,9 @@
 }
 
 .Chapter_tabs::-webkit-scrollbar-thumb:horizontal {
-  height: 5px;
+  height: 5px; 
 }
-.tab_one {
-  border-bottom: 2px solid #db2b4b;
-}
+
 .top_section {
   display: flex;
   justify-content: space-between;
@@ -45,7 +43,6 @@
 }
 .music {
   margin: 0 auto;
-  height: 151px;
 }
 
 .music .musicimg img {
@@ -103,7 +100,7 @@
   align-items: center;
   justify-content: center;
   gap: 90px;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 .tab_one {
   font-size: 20px;
@@ -122,27 +119,27 @@
 .item_box {
   display: flex;
   align-items: center;
-  background: #252931b2;
   width: 596px;
-  border-radius: 7px;
   height: auto;
   justify-content: space-between;
   padding: 7px 10px;
+  border-bottom: 0.5px solid #00000033
 }
-.item_boxes {
+.player_details {
   display: flex;
   align-items: center;
-  width: 596px;
-  height: auto;
-  justify-content: space-between;
-  padding: 7px 10px;
-  border-bottom: 0.5px solid #00000033;
 }
-.play_icon {
-  position: relative;
-  top: -54px;
-  left: 27px;
-  height: 0;
+.player_details h5 {
+  font-size: 17px;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tab_one{
+    border-bottom: 2px solid #DB2B4B
 }
 .menu_icon {
   position: relative;
@@ -206,17 +203,5 @@
   font-size: 20px;
   font-weight: 600;
 }
-.bottom {
-  width: 802px;
-  height: 58px;
-  border-radius: 10px;
-  background: #191d24cc;
-  margin: 0 auto;
-  padding: 7px;
-}
-.bottom p {
-  text-align: center;
-  width: 80%;
-  margin-left: 35px;
-  margin-bottom: 10px;
+.bottomleft_section {
 }
