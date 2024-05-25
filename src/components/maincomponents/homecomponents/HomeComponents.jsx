@@ -11,6 +11,7 @@ function HomeComponents() {
           alt="Description of image"
           width={1990}
           height={300}
+          
         />
       </div>
     </>

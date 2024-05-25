@@ -67,7 +67,7 @@ function Chapters() {
                     width={85}
                     height={80}
                   />
-                   <div className={styles.play_icon}>
+                  <div className={styles.play_icon}>
                  <Image
                   src="/icons/play-round.svg"
                   alt="image"
