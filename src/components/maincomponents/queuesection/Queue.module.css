@@ -32,6 +32,8 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  height: 90px;
+
 }
 .play_icon {
   position: relative;
@@ -60,17 +62,28 @@
   height: 17px;
   background-color: #979797;
 }
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.epd_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
 .icons {
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 10px;
+  gap: 20px;
 }
 .icons_box{
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 10px;
 }
 .descc {
@@ -86,7 +99,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .buttons {
   display: flex;
@@ -121,7 +134,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-height: 445px;
+  max-height: 510px;
   overflow: auto;
 }
 .search_results::-webkit-scrollbar {
@@ -135,7 +148,6 @@
   height: auto;
   justify-content: space-between;
   padding: 7px 10px;
-  margin-top: 15px;
 }
 .play_iconn{
   position: relative;

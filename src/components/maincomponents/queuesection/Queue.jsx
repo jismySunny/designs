@@ -66,41 +66,43 @@ function Queue() {
                 <h4 className={styles.epd_name}>
                   Episode 299: The Horrific Murde
                 </h4>
-                <p className={styles.descc}>16m left</p>
-                <div className={styles.icons}>
-                  <div className={styles.icon}>
-                    <Image
-                      src="/icons/download.svg"
-                      alt="image"
-                      width={25}
-                      height={25}
-                    />
+                <div className={styles.epd_bottom}>
+                    <p className={styles.descc}>16m left</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div className={styles.icon}>
-                    <Image
-                      src="/icons/playericons/save.svg"
-                      alt="image"
-                      width={25}
-                      height={25}
-                    />
-                  </div>
-                  <div className={styles.icon}>
-                    <Image
-                      src="/icons/add2.svg"
-                      alt="image"
-                      width={30}
-                      height={30}
-                    />
-                  </div>
-                  <div className={styles.icon}>
-                    <Image
-                      src="/icons/playericons/plus.svg"
-                      alt="image"
-                      width={25}
-                      height={25}
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -188,115 +190,41 @@ function Queue() {
                   <h4 className={styles.epd_name}>
                     Episode 299: The Horrific Murde
                   </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.results_box}>
-              <div className={styles.image_play}>
-                <div className={styles.chapter_image}>
-                  <Image
-                    src="/images/episode.png"
-                    alt="image"
-                    width={85}
-                    height={80}
-                  />
-                  <div className={styles.play_iconn}>
-                    <Image
-                      src="/icons/play-round.svg"
-                      alt="image"
-                      width={30}
-                      height={30}
-                    />
-                  </div>
-                </div>
-
-                <div className={styles.player_section}>
-                  <div className={styles.top_details}>
-                    <div className={styles.titles}>
-                      <p className={styles.descc}>Season 1 Episode 10</p>
-                      <span className={styles.line}></span>
-                      <p className={styles.descc}> February 23, 2022</p>
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/lines.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                  </div>
-                  <h4 className={styles.epd_name}>
-                    Episode 299: The Horrific Murde
-                  </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -340,115 +268,41 @@ function Queue() {
                   <h4 className={styles.epd_name}>
                     Episode 299: The Horrific Murde
                   </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.results_box}>
-              <div className={styles.image_play}>
-                <div className={styles.chapter_image}>
-                  <Image
-                    src="/images/episode.png"
-                    alt="image"
-                    width={85}
-                    height={80}
-                  />
-                  <div className={styles.play_iconn}>
-                    <Image
-                      src="/icons/play-round.svg"
-                      alt="image"
-                      width={30}
-                      height={30}
-                    />
-                  </div>
-                </div>
-
-                <div className={styles.player_section}>
-                  <div className={styles.top_details}>
-                    <div className={styles.titles}>
-                      <p className={styles.descc}>Season 1 Episode 10</p>
-                      <span className={styles.line}></span>
-                      <p className={styles.descc}> February 23, 2022</p>
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/lines.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                  </div>
-                  <h4 className={styles.epd_name}>
-                    Episode 299: The Horrific Murde
-                  </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -492,115 +346,41 @@ function Queue() {
                   <h4 className={styles.epd_name}>
                     Episode 299: The Horrific Murde
                   </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.results_box}>
-              <div className={styles.image_play}>
-                <div className={styles.chapter_image}>
-                  <Image
-                    src="/images/episode.png"
-                    alt="image"
-                    width={85}
-                    height={80}
-                  />
-                  <div className={styles.play_iconn}>
-                    <Image
-                      src="/icons/play-round.svg"
-                      alt="image"
-                      width={30}
-                      height={30}
-                    />
-                  </div>
-                </div>
-
-                <div className={styles.player_section}>
-                  <div className={styles.top_details}>
-                    <div className={styles.titles}>
-                      <p className={styles.descc}>Season 1 Episode 10</p>
-                      <span className={styles.line}></span>
-                      <p className={styles.descc}> February 23, 2022</p>
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/lines.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                  </div>
-                  <h4 className={styles.epd_name}>
-                    Episode 299: The Horrific Murde
-                  </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -644,115 +424,41 @@ function Queue() {
                   <h4 className={styles.epd_name}>
                     Episode 299: The Horrific Murde
                   </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.results_box}>
-              <div className={styles.image_play}>
-                <div className={styles.chapter_image}>
-                  <Image
-                    src="/images/episode.png"
-                    alt="image"
-                    width={85}
-                    height={80}
-                  />
-                  <div className={styles.play_iconn}>
-                    <Image
-                      src="/icons/play-round.svg"
-                      alt="image"
-                      width={30}
-                      height={30}
-                    />
-                  </div>
-                </div>
-
-                <div className={styles.player_section}>
-                  <div className={styles.top_details}>
-                    <div className={styles.titles}>
-                      <p className={styles.descc}>Season 1 Episode 10</p>
-                      <span className={styles.line}></span>
-                      <p className={styles.descc}> February 23, 2022</p>
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/lines.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                  </div>
-                  <h4 className={styles.epd_name}>
-                    Episode 299: The Horrific Murde
-                  </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -796,45 +502,358 @@ function Queue() {
                   <h4 className={styles.epd_name}>
                     Episode 299: The Horrific Murde
                   </h4>
-                  <p className={styles.descc}>16m</p>
-                  <div className={styles.icons_box}>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/download.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/save.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/add2.svg"
-                        alt="image"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
-                    <div className={styles.icon}>
-                      <Image
-                        src="/icons/playericons/plus.svg"
-                        alt="image"
-                        width={25}
-                        height={25}
-                      />
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
+            <div className={styles.results_box}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                  <div className={styles.play_iconn}>
+                    <Image
+                      src="/icons/play-round.svg"
+                      alt="image"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles.player_section}>
+                  <div className={styles.top_details}>
+                    <div className={styles.titles}>
+                      <p className={styles.descc}>Season 1 Episode 10</p>
+                      <span className={styles.line}></span>
+                      <p className={styles.descc}> February 23, 2022</p>
+                    </div>
+                    <div className={styles.icon}>
+                      <Image
+                        src="/icons/lines.svg"
+                        alt="image"
+                        width={30}
+                        height={30}
+                      />
+                    </div>
+                  </div>
+                  <h4 className={styles.epd_name}>
+                    Episode 299: The Horrific Murde
+                  </h4>
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.results_box}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                  <div className={styles.play_iconn}>
+                    <Image
+                      src="/icons/play-round.svg"
+                      alt="image"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles.player_section}>
+                  <div className={styles.top_details}>
+                    <div className={styles.titles}>
+                      <p className={styles.descc}>Season 1 Episode 10</p>
+                      <span className={styles.line}></span>
+                      <p className={styles.descc}> February 23, 2022</p>
+                    </div>
+                    <div className={styles.icon}>
+                      <Image
+                        src="/icons/lines.svg"
+                        alt="image"
+                        width={30}
+                        height={30}
+                      />
+                    </div>
+                  </div>
+                  <h4 className={styles.epd_name}>
+                    Episode 299: The Horrific Murde
+                  </h4>
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.results_box}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                  <div className={styles.play_iconn}>
+                    <Image
+                      src="/icons/play-round.svg"
+                      alt="image"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles.player_section}>
+                  <div className={styles.top_details}>
+                    <div className={styles.titles}>
+                      <p className={styles.descc}>Season 1 Episode 10</p>
+                      <span className={styles.line}></span>
+                      <p className={styles.descc}> February 23, 2022</p>
+                    </div>
+                    <div className={styles.icon}>
+                      <Image
+                        src="/icons/lines.svg"
+                        alt="image"
+                        width={30}
+                        height={30}
+                      />
+                    </div>
+                  </div>
+                  <h4 className={styles.epd_name}>
+                    Episode 299: The Horrific Murde
+                  </h4>
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.results_box}>
+              <div className={styles.image_play}>
+                <div className={styles.chapter_image}>
+                  <Image
+                    src="/images/episode.png"
+                    alt="image"
+                    width={85}
+                    height={80}
+                  />
+                  <div className={styles.play_iconn}>
+                    <Image
+                      src="/icons/play-round.svg"
+                      alt="image"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles.player_section}>
+                  <div className={styles.top_details}>
+                    <div className={styles.titles}>
+                      <p className={styles.descc}>Season 1 Episode 10</p>
+                      <span className={styles.line}></span>
+                      <p className={styles.descc}> February 23, 2022</p>
+                    </div>
+                    <div className={styles.icon}>
+                      <Image
+                        src="/icons/lines.svg"
+                        alt="image"
+                        width={30}
+                        height={30}
+                      />
+                    </div>
+                  </div>
+                  <h4 className={styles.epd_name}>
+                    Episode 299: The Horrific Murde
+                  </h4>
+                  <div className={styles.bottom}>
+                    <p className={styles.descc}>16m</p>
+                    <div className={styles.icons_box}>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/download.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/save.svg"
+                          alt="image"
+                          width={25}
+                          height={25}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/add2.svg"
+                          alt="image"
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                      <div className={styles.icon}>
+                        <Image
+                          src="/icons/playericons/plus.svg"
+                          alt="image"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
