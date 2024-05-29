@@ -44,49 +44,14 @@ function Spotlight() {
                   alt="Image"
                 />
               </div>
-              <div className={styles.followers_container}>
-                <div className={styles.followers_img}>
-                  <Image
-                    className="image"
-                    width={100}
-                    height={100}
-                    src="/images/follower2.jpeg"
-                    alt="Image"
-                  />
-                  <Image
-                    className="image"
-                    width={100}
-                    height={100}
-                    src="/images/follower1.png"
-                    alt="Image"
-                  />
-                  <Image
-                    className="image"
-                    width={100}
-                    height={100}
-                    src="/images/follower2.jpeg"
-                    alt="Image"
-                  />
-                  <Image
-                    className="image"
-                    width={100}
-                    height={100}
-                    src="/images/follower1.png"
-                    alt="Image"
-                  />
-                </div>
-                <div className={styles.followers_details}>
-                  <p>10k</p>
-                  <p>Followers</p>
-                </div>
-              </div>
+              
             </div>
             <div className={styles.follow}>
               <div className={styles.follow_details}>
                 <Image
                   className="image"
-                  width={40}
-                  height={40}
+                  width={50}
+                  height={50}
                   src="/icons/follow.svg"
                   alt="Image"
                 />
@@ -97,24 +62,26 @@ function Spotlight() {
         </div>
         <div className={styles.right_container}>
           <div className={styles.top}>
-            <p>Paul Weller Fan Podcast The Thing About Pam</p>
+            <p>Paul Weller Fan Podcast The Thing About Pam
             <div className={styles.icon_E}>
-              {/* <Image src={"/icons/E.svg"} width={11} height={13} alt="Image" /> */}
+              <Image src={"/icons/E.svg"} width={21} height={23} alt="Image" />
             </div>
+            </p>
+
           </div>
           <div className={styles.author}>
             <p>Author Name</p>
             <div className={styles.icon}>
               <Image
                 src={"/icons/share.svg"}
-                width={33}
-                height={33}
+                width={27}
+                height={27}
                 alt="Image"
               />
               <Image
                 src={"/icons/setting.svg"}
-                width={33}
-                height={33}
+                width={27}
+                height={27}
                 alt="Image"
               />
             </div>
@@ -123,8 +90,8 @@ function Spotlight() {
             <div className={styles.star}>
               <Image
                 src={"/icons/golden-star.svg"}
-                width={33}
-                height={33}
+                width={27}
+                height={27}
                 alt="Image"
               />
               <p>4.5 (1.1k)</p>

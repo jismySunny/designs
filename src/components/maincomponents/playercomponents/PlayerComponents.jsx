@@ -30,30 +30,48 @@ function PlayerComponents() {
 
         <div className={styles.about_music}>
           <div className={styles.contents}>
-            <p className={styles.title}>Glennon Doyle & Cadence13</p>
+            <p className={styles.titles}>Glennon Doyle & Cadence13</p>
             <p className={styles.desc}>
               Episode 299: The Horrific Murder of Dorothy..
             </p>
-            <p className={styles.title}>Morbid: A True Crime Podcast</p>
+            <div className={styles.slider_section}>
+              <div className={styles.icn}>
+                <Image
+                  src="/icons/prev.svg"
+                  alt="image"
+                  width={20}
+                  height={20}
+                />
+              </div>
+              <p className={styles.title}>Morbid: A True Crime Podcast</p>
+              <div className={styles.icn}>
+                <Image
+                  src="/icons/next.svg"
+                  alt="image"
+                  width={20}
+                  height={20}
+                />
+              </div>
+            </div>
           </div>
           <div className={styles.icons}>
             <Image
               src="/icons/playericons/chapters.svg"
               alt="image"
-              width={25}
-              height={25}
+              width={22}
+              height={22}
             />
             <Image
               src="/icons/playericons/captions.svg"
               alt="image"
-              width={25}
-              height={25}
+              width={22}
+              height={22}
             />
             <Image
               src="/icons/playericons/info.svg"
               alt="image"
-              width={25}
-              height={25}
+              width={22}
+              height={22}
             />
           </div>
         </div>
@@ -114,14 +132,14 @@ function PlayerComponents() {
           <Image
             src="/icons/playericons/menu.svg"
             alt="image"
-            width={35}
-            height={35}
+            width={27}
+            height={27}
           />
           <Image
             src="/icons/playericons/expand.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           />
         </div>
         <div className={styles.bottom_section}>
@@ -129,14 +147,14 @@ function PlayerComponents() {
           <Image
             src="/icons/playericons/speaker.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={27}
+            height={27}
           />
           <Image
             src="/icons/playericons/like.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={27}
+            height={27}
           />
           <Image
             src="/icons/playericons/save.svg"
@@ -147,14 +165,14 @@ function PlayerComponents() {
           <Image
             src="/icons/playericons/plus.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={23}
+            height={23}
           />
           <Image
             src="/icons/playericons/playlist.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           />
         </div>
       </div>

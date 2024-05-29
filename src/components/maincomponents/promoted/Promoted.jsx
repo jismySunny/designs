@@ -30,8 +30,8 @@ function Promoted() {
                     <Image
                       src="/icons/card-menu.svg"
                       alt="Menu"
-                      width={38}
-                      height={39}
+                      width={32}
+                      height={32}
                     />
                   </div>
                   <h6>Sam Laliberte</h6>

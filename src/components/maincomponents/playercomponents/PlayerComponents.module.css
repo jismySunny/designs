@@ -50,18 +50,29 @@
 }
 .about_music {
 }
-.title {
+.titles {
+  color: #e8a510;
   font-size: 15px;
   font-weight: 400;
+}
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #979797;
 }
 .desc {
   font-size: 23px;
   font-weight: 600;
 }
+.slider_section{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .icons {
   display: flex;
   margin-top: 13px;
-  gap: 10px;
+  gap: 14px;
   margin-bottom: 13px;
 }
 .time {
@@ -81,7 +92,7 @@
 }
 .music_times {
   display: flex;
-align-items: center;
+  align-items: center;
   gap: 31px;
   /* margin-left: -132px; */
 }
@@ -95,14 +106,13 @@ align-items: center;
 .top_section {
   display: flex;
   justify-content: end;
-  gap: 25px;
+  gap: 38px;
 }
 .bottom_section {
   display: flex;
   gap: 45px;
 }
 .speed {
-  background: #e8a51066;
   width: 40px;
   height: 30px;
   text-align: center;
@@ -110,26 +120,26 @@ align-items: center;
   font-size: 20px;
   font-weight: 600;
 }
-.progress_box{
-    width: 527px;
-    height: 10px;
-    background: #D9D9D9;
-    border-radius: 20px;
+.progress_box {
+  width: 527px;
+  height: 10px;
+  background: #d9d9d9;
+  border-radius: 20px;
 }
-.progress_bar{
-    width: 171px;
-    background: #E8A510;
-    height: 10px;
-    border-radius:20px 0px 0px 20px;  
+.progress_bar {
+  width: 171px;
+  background: #e8a510;
+  height: 10px;
+  border-radius: 20px 0px 0px 20px;
 }
-.player_box{
-    background: #D9D9D9;
-    border-radius: 50%;
-    width: 52px;
-    height: 52px;
+.player_box {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
 }
-.player_img{
-    position: relative;
-    top: 11px;
-    left: 18px;
+.player_img {
+  position: relative;
+  top: 11px;
+  left: 18px;
 }

@@ -19,14 +19,14 @@ function SectionHeader() {
               <Image
                 src="/icons/left-arrow.svg"
                 alt="image"
-                width={25}
-                height={25}
+                width={20}
+                height={20}
               />
               <Image
                 src="/icons/right-arrow.svg"
                 alt="image"
-                width={25}
-                height={25}
+                width={20}
+                height={20}
               />
             </div>
           </div>

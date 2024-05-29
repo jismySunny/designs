@@ -38,7 +38,7 @@
 .music .musicimg img {
   width: 100%;
   border-radius: 10px;
-  height: 184px;
+  height: 192px;
 }
 
 .music .item {
@@ -59,8 +59,8 @@
   width: 75%;
 }
 .descrption {
-  font-size: 15px;
-  color: #fff;
+  font-size: 18px;
+  color: #979797;
   font-weight: 400;
   display: -webkit-box;
   -webkit-line-clamp: 2;

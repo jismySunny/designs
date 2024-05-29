@@ -67,8 +67,8 @@
   margin-top: -10px;
 }
 .descrption {
-  font-size: 15px;
-  color: #fff;
+  font-size: 18px;
+  color: #979797;
   font-weight: 400;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -81,6 +81,7 @@
 .top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 .bottom {
   display: flex;
@@ -105,17 +106,26 @@
 .line {
   width: 2px;
   height: 17px;
-  background-color: #fff;
+  background: #979797;
 }
 .descc {
   font-style: 18px;
   font-weight: 400;
   text-transform: uppercase;
+  color: #979797;
 }
 .desc {
   font-style: 18px;
   font-weight: 400;
+
 }
+.des {
+  font-style: 18px;
+  font-weight: 400;
+  color: #979797;
+
+}
+
 
 .progress_bar {
   width: 70px;

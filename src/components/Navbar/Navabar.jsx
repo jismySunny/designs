@@ -175,15 +175,15 @@ export const Navabar = ({ navRef, sticky }) => {
               <div className={styles.up_down}>
                 <Image
                   className="image"
-                  width={60}
-                  height={60}
+                  width={50}
+                  height={50}
                   src="/icons/arrow1.svg"
                   alt="Image"
                 />
                 <Image
                   className="image images"
-                  width={60}
-                  height={60}
+                  width={40}
+                  height={40}
                   src="/icons/arrow2.svg"
                   alt="Image"
                 />
@@ -192,8 +192,8 @@ export const Navabar = ({ navRef, sticky }) => {
             <div className={styles.settings}>
               <Image
                 className="image"
-                width={80}
-                height={80}
+                width={70}
+                height={70}
                 src="/icons/menu.svg"
                 alt="Image"
               />

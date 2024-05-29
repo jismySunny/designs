@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Queue.module.css";
+import styles from "./Queue.module.css"; 
 import Image from "next/image";
 import ShowNotes from "../shownotessection/ShowNotes";
 

@@ -1,11 +1,4 @@
 .main {
-  /* height: 100vh; */
-  /* background: rgb(5, 5, 5); */
-  /* background: linear-gradient(
-        77deg,
-        rgba(5, 5, 5, 0.5676864495798319) 0%,
-        rgba(255, 180, 41, 1) 51%
-    ); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -100px;
@@ -29,13 +22,8 @@
 .slide_container {
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
-  /* margin: 0 auto; */
-  /* max-width: 1250px; */
   position: relative;
   overflow: hidden;
-  /* align-items: center; */
-  /* height: calc(100vh - 210px); */
   z-index: 1;
   justify-content: space-between;
   padding: 60px;
@@ -46,7 +34,6 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  /* flex-direction: column; */
   width: 90%;
   margin: 0 auto;
   max-width: 1250px;
@@ -66,7 +53,7 @@
 }
 
 .follow {
-  top: -80px;
+  top: 20px;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -80,37 +67,25 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 .follow_details {
   display: flex;
-  gap: 30px;
+  gap: 15px;
+  align-items: center;
 }
 .item {
   color: #000;
-  font-size: 23px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 500;
 }
 
 .details_img {
-  height: 650px;
-  width: 600px;
+  height: 590px;
+  width: 593px;
+
 }
-.followers_container {
-  background: #00000033;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  position: relative;
-  top: -80px;
-  height: 80px;
-}
-.followers_img {
-}
-.followers_img img {
-  border-radius: 50%;
-  width: 62px;
-  height: 62px;
-}
+
 .followers_details {
   display: flex;
   gap: 10px;
@@ -124,18 +99,22 @@
 .right_container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 17px;
+  margin-top: 0px;
 }
-.top {
-  display: flex;
+.icon_E{
+  position: relative;
+  left: 30%;
+  top: -50px;
+  height: 0;
 }
 .top p {
   font-family: "Montserrat", sans-serif;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 600;
-  line-height: 48.76px;
   text-align: left;
   width: 85%;
+  
 }
 .author {
   display: flex;
