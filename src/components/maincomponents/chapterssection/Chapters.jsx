@@ -64,8 +64,8 @@ function Chapters() {
                   <Image
                     src="/images/episode.png"
                     alt="image"
-                    width={85}
-                    height={80}
+                    width={71}
+                    height={60}
                   />
                   <div className={styles.play_icon}>
                  <Image
@@ -101,8 +101,8 @@ function Chapters() {
                   <Image
                     src="/images/podcastimg.png"
                     alt="image"
-                    width={85}
-                    height={80}
+                    width={68}
+                    height={60}
                   />
                 </div>
 
@@ -130,8 +130,8 @@ function Chapters() {
                   <Image
                     src="/images/episode.png"
                     alt="image"
-                    width={85}
-                    height={80}
+                    width={68}
+                    height={60}
                   />
                    <div className={styles.play_icon}>
                  <Image
@@ -167,8 +167,8 @@ function Chapters() {
                   <Image
                     src="/images/episode.png"
                     alt="image"
-                    width={85}
-                    height={80}
+                    width={68}
+                    height={60}
                   />
                   <div className={styles.play_icon}>
                     <Image
@@ -204,8 +204,8 @@ function Chapters() {
                   <Image
                     src="/images/episode.png"
                     alt="image"
-                    width={85}
-                    height={80}
+                    width={68}
+                    height={60}
                   />
                    <div className={styles.play_icon}>
                  <Image
@@ -241,8 +241,8 @@ function Chapters() {
                   <Image
                     src="/images/episode.png"
                     alt="image"
-                    width={85}
-                    height={80}
+                    width={68}
+                    height={60}
                   />
                    <div className={styles.play_icon}>
                  <Image
@@ -335,7 +335,7 @@ function Chapters() {
         </div>
         <div className={styles.bottomleft_section}>
           <Image
-            src="/icons/playericons/playlist.svg"
+            src="/icons/playericons/queue.svg"
             alt="image"
             width={30}
             height={30}

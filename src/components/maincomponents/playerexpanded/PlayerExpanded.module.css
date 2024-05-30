@@ -16,29 +16,30 @@
 
 .top_section {
   position: absolute;
-  top: 30px;
-  right: 20px;
+  top: 35px;
+  right: 39px;
 }
 .music {
   margin: 0 auto;
 }
 .music .musicimg img {
   border-radius: 10px;
-  width: 505px;
-  height: 505px;
+  width: 465px;
+  height: 475px;
   opacity: 0.4;
   margin-top: 68px;
 }
 .items {
   display: flex;
   position: relative;
-  top: -81%;
-  left: 214px;
+  top: -80%;
+  left: 195px;
   justify-content: space-evenly;
 }
 
 .music_details {
-  margin-left: 90px;
+  margin-left: 152px;
+    margin-top: -20px;
 }
 .title {
   font-size: 26px;
@@ -57,20 +58,20 @@
   align-items: center;
   gap: 31px;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 45px;
   margin-left: -15px;
 }
 .time {
   font-size: 15px;
 }
 .progress_box {
-  width: 82%;
+  width: 76%;
   height: 10px;
   background: #d9d9d9;
   border-radius: 20px;
 }
 .progress_bar {
-  width: 171px;
+  width: 200px;
   background: #95543d;
   height: 10px;
   border-radius: 20px 0px 0px 20px;
@@ -78,8 +79,8 @@
 .player_section {
   display: flex;
   align-items: center;
-  gap: 268px;
-  margin-left: 37%;
+  gap: 244px;
+  margin-left: 41%;
 }
 .playing_items {
   display: flex;
@@ -104,7 +105,7 @@
   justify-content: end;
 }
 .speed {
-  background: #95543d66;
+  /* background: #95543d66; */
   width: 40px;
   height: 30px;
   text-align: center;

@@ -92,7 +92,7 @@
 }
 .chapter {
   background: #d9d9d91a;
-  width: 702px;
+  width: 802px;
   height: auto;
   border-radius: 5px;
   margin: 0 auto;
@@ -102,7 +102,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 90px;
+  gap: 110px;
   padding: 15px 0;
 }
 .tab_one {
@@ -113,7 +113,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 12px 20px;
+  padding: 5px 20px;
 }
 
 .chapter_image img {
@@ -123,25 +123,26 @@
   display: flex;
   align-items: center;
   background: #252931b2;
-  width: 596px;
+  width:672px;
   border-radius: 7px;
-  height: auto;
+  height: 80px;
   justify-content: space-between;
-  padding: 7px 10px;
+  padding: 4px 10px 4px 4px;
+  
 }
 .item_boxes {
   display: flex;
   align-items: center;
-  width: 596px;
-  height: auto;
+  width: 672px;
+  height: 80px;
   justify-content: space-between;
-  padding: 7px 10px;
+  padding: 4px 10px 4px 4px;
   border-bottom: 0.5px solid #00000033;
 }
 .play_icon {
   position: relative;
-  top: -54px;
-  left: 27px;
+  top: -49px;
+  left: 21px;
   height: 0;
 }
 .menu_icon {
@@ -220,3 +221,4 @@
   margin-left: 35px;
   margin-bottom: 10px;
 }
+

@@ -219,38 +219,6 @@ function PodcastListing() {
                 <div className={styles.card}>
                   <div className={styles.pod_image}>
                     <Image
-                      src={"/images/card-two.png"}
-                      width={200}
-                      height={133}
-                      alt="Image"
-                      className="image"
-                      style={{
-                        borderRadius: "7px",
-                      }}
-                    />
-                     <div
-                      className={styles.icon}
-                      style={{
-                        top: "5%",
-                      }}
-                    >
-                      <Image
-                        src={"/icons/card-menu.svg"}
-                        width={30}
-                        height={30}
-                        alt="Image"
-                      />
-                    </div>
-                  </div>
-                  <div className={styles.pod_content}>
-                    <h1 className={styles.title}>Chameleon: Wild Boys
-                    </h1>
-                    <h2 className={styles.description}>Campside Media</h2>
-                  </div>
-                </div>
-                <div className={styles.card}>
-                  <div className={styles.pod_image}>
-                    <Image
                       src={"/images/card-one.png"}
                       width={200}
                       height={133}
@@ -604,6 +572,102 @@ function PodcastListing() {
                   <div className={styles.pod_image}>
                     <Image
                       src={"/images/card-two.png"}
+                      width={200}
+                      height={133}
+                      alt="Image"
+                      className="image"
+                      style={{
+                        borderRadius: "7px",
+                      }}
+                    />
+                     <div
+                      className={styles.icon}
+                      style={{
+                        top: "5%",
+                      }}
+                    >
+                      <Image
+                        src={"/icons/card-menu.svg"}
+                        width={30}
+                        height={30}
+                        alt="Image"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.pod_content}>
+                    <h1 className={styles.title}>Chameleon: Wild Boys
+                    </h1>
+                    <h2 className={styles.description}>Campside Media</h2>
+                  </div>
+                </div>
+                <div className={styles.card}>
+                  <div className={styles.pod_image}>
+                    <Image
+                      src={"/images/card-one.png"}
+                      width={200}
+                      height={133}
+                      alt="Image"
+                      className="image"
+                      style={{
+                        borderRadius: "7px",
+                      }}
+                    />
+                     <div
+                      className={styles.icon}
+                      style={{
+                        top: "5%",
+                      }}
+                    >
+                      <Image
+                        src={"/icons/card-menu.svg"}
+                        width={30}
+                        height={30}
+                        alt="Image"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.pod_content}>
+                    <h1 className={styles.title}>Chameleon: Wild Boys
+                    </h1>
+                    <h2 className={styles.description}>Campside Media</h2>
+                  </div>
+                </div>
+                <div className={styles.card}>
+                  <div className={styles.pod_image}>
+                    <Image
+                      src={"/images/card-two.png"}
+                      width={200}
+                      height={133}
+                      alt="Image"
+                      className="image"
+                      style={{
+                        borderRadius: "7px",
+                      }}
+                    />
+                     <div
+                      className={styles.icon}
+                      style={{
+                        top: "5%",
+                      }}
+                    >
+                      <Image
+                        src={"/icons/card-menu.svg"}
+                        width={30}
+                        height={30}
+                        alt="Image"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.pod_content}>
+                    <h1 className={styles.title}>Chameleon: Wild Boys
+                    </h1>
+                    <h2 className={styles.description}>Campside Media</h2>
+                  </div>
+                </div>
+                <div className={styles.card}>
+                  <div className={styles.pod_image}>
+                    <Image
+                      src={"/images/card-one.png"}
                       width={200}
                       height={133}
                       alt="Image"
@@ -638,6 +702,70 @@ function PodcastListing() {
                       src={"/images/card-two.png"}
                       width={200}
                       height={200}
+                      alt="Image"
+                      className="image"
+                      style={{
+                        borderRadius: "7px",
+                      }}
+                    />
+                     <div
+                      className={styles.icon}
+                      style={{
+                        top: "5%",
+                      }}
+                    >
+                      <Image
+                        src={"/icons/card-menu.svg"}
+                        width={30}
+                        height={30}
+                        alt="Image"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.pod_content}>
+                    <h1 className={styles.title}>Chameleon: Wild Boys
+                    </h1>
+                    <h2 className={styles.description}>Campside Media</h2>
+                  </div>
+                </div>
+                <div className={styles.card}>
+                  <div className={styles.pod_image}>
+                    <Image
+                      src={"/images/card-one.png"}
+                      width={200}
+                      height={133}
+                      alt="Image"
+                      className="image"
+                      style={{
+                        borderRadius: "7px",
+                      }}
+                    />
+                     <div
+                      className={styles.icon}
+                      style={{
+                        top: "5%",
+                      }}
+                    >
+                      <Image
+                        src={"/icons/card-menu.svg"}
+                        width={30}
+                        height={30}
+                        alt="Image"
+                      />
+                    </div>
+                  </div>
+                  <div className={styles.pod_content}>
+                    <h1 className={styles.title}>Chameleon: Wild Boys
+                    </h1>
+                    <h2 className={styles.description}>Campside Media</h2>
+                  </div>
+                </div>
+                <div className={styles.card}>
+                  <div className={styles.pod_image}>
+                    <Image
+                      src={"/images/card-one.png"}
+                      width={200}
+                      height={133}
                       alt="Image"
                       className="image"
                       style={{

@@ -87,23 +87,23 @@ function PlayerExpanded() {
           <Image
             src="/icons/playericons/speaker.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           />
           
           
           <Image
             src="/icons/playericons/plus.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={23}
+            height={25}
           />
           
         </div>
         <div className={styles.bottomleft_section}>
           
         <Image
-            src="/icons/playericons/playlist.svg"
+            src="/icons/playericons/queue.svg"
             alt="image"
             width={30}
             height={30}

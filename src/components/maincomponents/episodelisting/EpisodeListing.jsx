@@ -38,15 +38,15 @@ function EpisodeListing() {
                     <Image
                       src="/icons/E.svg"
                       alt="E"
-                      width={15}
-                      height={15}
+                      width={10}
+                      height={10}
                     />
                   </div>
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>Episode 299: The Horrific Murder, the Horrific Murder</h4>
@@ -71,8 +71,8 @@ function EpisodeListing() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={23}
+                      height={23}
                     />
                   </div>
                 </div>
@@ -111,8 +111,8 @@ function EpisodeListing() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>Episode 299: The Horrific Murder, the Horrific Murder</h4>
@@ -137,8 +137,8 @@ function EpisodeListing() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={23}
+                      height={23}
                     />
                   </div>
                 </div>
@@ -177,8 +177,8 @@ function EpisodeListing() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>Episode 299: The Horrific Murder, the Horrific Murder</h4>
@@ -203,8 +203,8 @@ function EpisodeListing() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={23}
+                      height={23}
                     />
                   </div>
                 </div>
@@ -243,8 +243,8 @@ function EpisodeListing() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>Episode 299: The Horrific Murder, the Horrific Murder</h4>
@@ -269,8 +269,8 @@ function EpisodeListing() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={23}
+                      height={23}
                     />
                   </div>
                 </div>
@@ -309,8 +309,8 @@ function EpisodeListing() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>Episode 299: The Horrific Murder, the Horrific Murder</h4>
@@ -335,8 +335,8 @@ function EpisodeListing() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={23}
+                      height={23}
                     />
                   </div>
                 </div>
@@ -375,8 +375,8 @@ function EpisodeListing() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>Episode 299: The Horrific Murder, the Horrific Murder</h4>
@@ -401,8 +401,8 @@ function EpisodeListing() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={23}
+                      height={23}
                     />
                   </div>
                 </div>
