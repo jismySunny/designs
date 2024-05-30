@@ -172,8 +172,8 @@ function PodcastDetails() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
@@ -205,8 +205,8 @@ function PodcastDetails() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={22}
+                      height={22}
                     />
                   </div>
                 </div>
@@ -239,8 +239,8 @@ function PodcastDetails() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
@@ -264,8 +264,8 @@ function PodcastDetails() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={22}
+                      height={22}
                     />
                   </div>
                 </div>
@@ -290,8 +290,8 @@ function PodcastDetails() {
                   <Image
                     src="/icons/card-menu.svg"
                     alt="Menu"
-                    width={38}
-                    height={39}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <h4>#052: The Madness of Mental Health Diagnosis</h4>
@@ -315,8 +315,8 @@ function PodcastDetails() {
                     <Image
                       src="/icons/plus.svg"
                       alt="Plus"
-                      width={30}
-                      height={30}
+                      width={22}
+                      height={22}
                     />
                   </div>
                 </div>
