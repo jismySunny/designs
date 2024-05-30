@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./ListingSectionHeader.module.css";
 import Image from "next/image";
 
 function ListingSectionHeader() {
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleMenuClick = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
+
   return (
     <div className={styles.listingsection}>
       <div className={styles.wrapper}>
@@ -20,7 +26,7 @@ function ListingSectionHeader() {
           </div>
           <div className={styles.right}>
             <div className={styles.menu_list}>
-              <div className={styles.icons}>
+              <div className={styles.icons} onClick={handleMenuClick}>
                 <Image
                   src={"/icons/music-Menu.svg"}
                   width={35}
@@ -28,19 +34,47 @@ function ListingSectionHeader() {
                   alt="Image"
                 />
               </div>
-              {/* <div className={styles.menu_items}>
-                <div className={styles.items}>
-                  <div className={styles.icon}>
+              {dropdownVisible && (
+                <div className={styles.dropdown}>
+                  <div className={styles.dropdownItem}>
                     <Image
-                      src={"/icons/music-Menu.svg"}
+                      src={"/icons/menu-icon/document.svg"}
                       width={15}
                       height={15}
-                      alt="Image"
+                      alt="Item"
                     />
+                    <span>Document</span>
                   </div>
-                  <p>Document</p>
+                  <p className={styles.lines}></p>
+                  <div className={styles.dropdownItem}>
+                    <Image
+                      src={"/icons/menu-icon/photo.svg"}
+                      width={15}
+                      height={15}
+                      alt="Item"
+                    />
+                    <span>Photos & Videos</span>
+                  </div>
+                  <div className={styles.dropdownItem}>
+                    <Image
+                      src={"/icons/menu-icon/camera.svg"}
+                      width={15}
+                      height={15}
+                      alt="Item"
+                    />
+                    <span>Camera</span>
+                  </div>
+                  <div className={styles.dropdownItem}>
+                    <Image
+                      src={"/icons/menu-icon/user-contact.svg"}
+                      width={15}
+                      height={15}
+                      alt="Item"
+                    />
+                    <span>Contact</span>
+                  </div>
                 </div>
-              </div> */}
+              )}
             </div>
           </div>
         </div>
