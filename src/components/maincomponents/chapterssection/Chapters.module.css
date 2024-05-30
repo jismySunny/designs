@@ -8,7 +8,7 @@
   height: 100%;
   padding: 10px 10px;
   display: flex;
-  gap: 18px;
+  gap: 10px;
   position: fixed;
   bottom: 0;
   flex-direction: column;
@@ -159,7 +159,7 @@
   font-weight: 600;
 }
 .progress_box {
-  width: 82%;
+  width: 75%;
   height: 10px;
   background: #d9d9d9;
   border-radius: 20px;
@@ -173,8 +173,8 @@
 .player_section {
   display: flex;
   align-items: center;
-  gap: 268px;
-  margin-left: 37%;
+  gap: 254px;
+  margin-left: 41%;
 }
 .playing_items {
   display: flex;
@@ -199,7 +199,7 @@
   justify-content: end;
 }
 .speed {
-  background: #95543d66;
+  /* background: #95543d66; */
   width: 40px;
   height: 30px;
   text-align: center;
@@ -214,11 +214,13 @@
   background: #191d24cc;
   margin: 0 auto;
   padding: 7px;
+  margin-top: 30px;
 }
 .bottom p {
   text-align: center;
   width: 80%;
   margin-left: 35px;
   margin-bottom: 10px;
+  
 }
 

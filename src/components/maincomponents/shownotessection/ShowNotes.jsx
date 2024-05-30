@@ -69,15 +69,15 @@ function ShowNotes() {
                 <Image
                   src="/icons/right-arrow-yellow.svg"
                   alt="image"
-                  width={25}
-                  height={20}
+                  width={18}
+                  height={18}
                 />
               </div>
               <div className={styles.chapter_image}>
                 <Image
                   src="/icons/plus-yellow.svg"
                   alt="image"
-                  width={25}
+                  width={20}
                   height={20}
                 />
               </div>
@@ -101,8 +101,8 @@ function ShowNotes() {
                   <Image
                     src="/icons/upside.svg"
                     alt="image"
-                    width={20}
-                    height={20}
+                    width={15}
+                    height={15}
                   />
                 </div>
               </div>
@@ -169,20 +169,20 @@ function ShowNotes() {
           <Image
             src="/icons/playericons/speaker.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={24}
+            height={24}
           />
 
           <Image
             src="/icons/playericons/plus.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={23}
+            height={23}
           />
         </div>
         <div className={styles.bottomleft_section}>
           <Image
-            src="/icons/playericons/playlist.svg"
+            src="/icons/playericons/queue.svg"
             alt="image"
             width={30}
             height={30}

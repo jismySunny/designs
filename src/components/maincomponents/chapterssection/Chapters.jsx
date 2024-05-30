@@ -322,15 +322,15 @@ function Chapters() {
           <Image
             src="/icons/playericons/speaker.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={24}
+            height={24}
           />
 
           <Image
             src="/icons/playericons/plus.svg"
             alt="image"
-            width={30}
-            height={30}
+            width={23}
+            height={23}
           />
         </div>
         <div className={styles.bottomleft_section}>

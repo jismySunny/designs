@@ -57,15 +57,15 @@ function EpisodeInnerSection() {
                     <Image
                       src="/icons/right-arrow-yellow.svg"
                       alt="image"
-                      width={25}
-                      height={20}
+                      width={18}
+                      height={18}
                     />
                   </div>
                   <div className={styles.chapter_image}>
                     <Image
                       src="/icons/plus-yellow.svg"
                       alt="image"
-                      width={25}
+                      width={20}
                       height={20}
                     />
                   </div>
@@ -91,24 +91,24 @@ function EpisodeInnerSection() {
                 <Image
                   src="/icons/plus.svg"
                   alt="image"
-                  width={35}
-                  height={35}
+                  width={26}
+                  height={26}
                 />
               </div>
               <div className={styles.icons}>
                 <Image
                   src="/icons/download.svg"
                   alt="image"
-                  width={35}
-                  height={35}
+                  width={26}
+                  height={26}
                 />
               </div>
               <div className={styles.icons}>
                 <Image
                   src="/icons/add1.svg"
                   alt="image"
-                  width={65}
-                  height={65}
+                  width={55}
+                  height={55}
                 />
               </div>
               <div className={styles.play}>
@@ -116,8 +116,8 @@ function EpisodeInnerSection() {
                   <Image
                     src="/icons/playericons/play.svg"
                     alt="image"
-                    width={30}
-                    height={30}
+                    width={40}
+                    height={40}
                   />
                 </div>
               </div>
@@ -125,16 +125,16 @@ function EpisodeInnerSection() {
                 <Image
                   src="/icons/add-playlist.svg"
                   alt="image"
-                  width={55}
-                  height={55}
+                  width={50}
+                  height={50}
                 />
               </div>
               <div className={styles.icons}>
                 <Image
                   src="/icons/playericons/save.svg"
                   alt="image"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                 />
               </div>
               <div className={styles.like}>
@@ -142,8 +142,8 @@ function EpisodeInnerSection() {
                   <Image
                     src="/icons/playericons/like.svg"
                     alt="image"
-                    width={35}
-                    height={35}
+                    width={30}
+                    height={30}
                     style={{
                       marginTop: "18px",
                     }}
@@ -223,10 +223,10 @@ function EpisodeInnerSection() {
               <h3>Hosts and Guests</h3>
               <div className={styles.hostsimg}>
                 <Image
-                  src="/images/follower2.jpeg"
+                  src="/images/follower2.png"
                   alt="Description of image"
-                  width={208}
-                  height={109}
+                  width={108}
+                  height={108}
                 />
               </div>
               <p>Host Name</p>

@@ -74,7 +74,7 @@
 }
 .chapter {
   background: #d9d9d91a;
-  width: 702px;
+  width: 802px;
   height: auto;
   border-radius: 5px;
   margin: 0 auto;
@@ -84,7 +84,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 90px;
+  gap: 110px;
   padding: 10px 0;
 }
 .tab_one {
@@ -94,14 +94,17 @@
 .tab_items {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 12px 20px;
-  border-bottom: 0.5px solid #00000033
+  gap: 10px;
+  padding: 12px 15px;
+  border-bottom: 0.5px solid #00000033;
+  margin-top: 10px;
+
 
 }
 .tab_item{
-    padding: 12px 20px;
-
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  margin-top: 4px;
 }
 .media {
   font-size: 19px;
@@ -122,7 +125,7 @@
 .line {
   width: 2px;
   height: 17px;
-  background-color: #fff;
+  background-color:#E3E3E3;
 }
 .website {
   display: flex;
@@ -133,6 +136,7 @@
 .descc{
     font-size: 17px;
     font-weight: 400;
+    color: #E3E3E3;
 }
 .episode {
   display: flex;
@@ -163,7 +167,7 @@
   font-weight: 600;
 }
 .progress_box {
-  width: 82%;
+  width: 75%;
   height: 10px;
   background: #d9d9d9;
   border-radius: 20px;
@@ -177,7 +181,7 @@
 .player_section {
   display: flex;
   align-items: center;
-  gap: 268px;
+  gap: 278px;
   margin-left: 37%;
 }
 .playing_items {
@@ -203,7 +207,7 @@
   justify-content: end;
 }
 .speed {
-  background: #95543d66;
+  /* background: #95543d66; */
   width: 40px;
   height: 30px;
   text-align: center;
